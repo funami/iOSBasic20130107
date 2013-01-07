@@ -7,26 +7,21 @@
 //
 
 #import "MTLCobjDetailViewController.h"
+#import "AFNetworking.h"
 
 @interface MTLCobjDetailViewController ()
+
+@property (weak, nonatomic) IBOutlet UIImageView *mainImageView;
 
 @end
 
 @implementation MTLCobjDetailViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+	[self.mainImageView setImage:[UIImage imageNamed:self.detailItem[@"image"]]];
+    self.title = self.detailItem[@"name"];
 }
 
 - (void)didReceiveMemoryWarning

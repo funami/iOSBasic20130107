@@ -10,4 +10,5 @@
 
 @interface MTLCbjCSampleViewController : UITableViewController
 
+- (IBAction)addData:(id)sender;
 @end

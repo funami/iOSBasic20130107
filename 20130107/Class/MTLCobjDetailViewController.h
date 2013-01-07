@@ -10,4 +10,6 @@
 
 @interface MTLCobjDetailViewController : UIViewController
 
+@property (nonatomic,strong) NSDictionary *detailItem;
+
 @end

@@ -1,5 +1,5 @@
 //
-//  MTLWebViewController.h
+//  MTLSimpleImageViewController.h
 //  20130107
 //
 //  Created by Takao Funami on 2013/01/07.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MTLWebViewController : UIViewController<UIWebViewDelegate>
+@interface MTLSimpleImageViewController : UIViewController
 
-@property (nonatomic,strong) NSDictionary *detailItem;
+- (IBAction)close:(id)sender;
 
 @end

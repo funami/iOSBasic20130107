@@ -42,6 +42,7 @@
 		63B8B99F169AA353009A99AE /* MTLWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B8B99E169AA353009A99AE /* MTLWebViewController.m */; };
 		63B8B9A1169AB592009A99AE /* glyphicons_192_circle_remove.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B8B9A0169AB592009A99AE /* glyphicons_192_circle_remove.png */; };
 		63B8B9A4169AB5C1009A99AE /* MTLSimpleImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B8B9A3169AB5C1009A99AE /* MTLSimpleImageViewController.m */; };
+		63B8B9AA169ABE00009A99AE /* ginza04-500x375.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63B8B9A9169ABE00009A99AE /* ginza04-500x375.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,7 @@
 		63B8B9A0169AB592009A99AE /* glyphicons_192_circle_remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_192_circle_remove.png; sourceTree = "<group>"; };
 		63B8B9A2169AB5C1009A99AE /* MTLSimpleImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLSimpleImageViewController.h; sourceTree = "<group>"; };
 		63B8B9A3169AB5C1009A99AE /* MTLSimpleImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLSimpleImageViewController.m; sourceTree = "<group>"; };
+		63B8B9A9169ABE00009A99AE /* ginza04-500x375.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ginza04-500x375.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,6 +281,7 @@
 		63B8B996169A9FF4009A99AE /* images */ = {
 			isa = PBXGroup;
 			children = (
+				63B8B9A9169ABE00009A99AE /* ginza04-500x375.jpg */,
 				63B8B9A0169AB592009A99AE /* glyphicons_192_circle_remove.png */,
 				63B8B997169AA0D5009A99AE /* 250px-Tokyo_Montage_2012.png */,
 				63B8B998169AA0D5009A99AE /* London_collage.jpg */,
@@ -368,6 +371,7 @@
 				63B8B99B169AA0D5009A99AE /* London_collage.jpg in Resources */,
 				63B8B99C169AA0D5009A99AE /* NYC_Montage_2011.jpg in Resources */,
 				63B8B9A1169AB592009A99AE /* glyphicons_192_circle_remove.png in Resources */,
+				63B8B9AA169ABE00009A99AE /* ginza04-500x375.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,6 +596,7 @@
 				63B8B8DB169A7D1E009A99AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63B8B8DC169A7D1E009A99AE /* Build configuration list for PBXNativeTarget "20130107Tests" */ = {
 			isa = XCConfigurationList;
@@ -600,6 +605,7 @@
 				63B8B8DE169A7D1E009A99AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
